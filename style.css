@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap');
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+   
+}
+header{
+    display: flex;
+    background-color: rgb(167, 152, 152);
+    background-image: linear-gradient(rgb(230, 172, 172), rgb(145, 145, 156),rgb(204, 184, 184));
+   justify-content: space-between;
+   padding: 20px 50px;
+   align-items: center;
+   color: white;
+      transition: all o.5 ease;
+}
+header>h2:hover{
+transform: scale(1.2);
+}
+.manu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+   color: white;
+
+}
+ .manu a{
+    text-decoration: none;
+      color: white;
+      font-size: 24px;
+}
+.logo>h2{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+
+}
+span{
+    color: brown;
+}
+a:hover{
+color: black;
+}
+
+#banner{
+    margin: 50px auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.leftbanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-left: 30px;
+}
+.leftbanner>h2{
+    font-size: 60px;
+}
+.leftbanner>p{
+    font-size: 20px;
+    text-align: justify;
+ width: 65vw;
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+.buttons{
+display: flex;
+gap: 10px;
+}
+
+.buttons>button:first-child{
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.buttons>button:first-child a{
+    color: white;
+     text-decoration: none;
+}
+.buttons>button:last-child a{color: rgb(20, 12, 12);
+  text-decoration: none;}
+.buttons>button:last-child{
+    background-color:rgb(223, 144, 144);
+    color: black;
+    border: none;
+   
+}
+.buttons>button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px 0px 20px 0px;
+      transition: all 3s ease;
+   
+}
+.leftbanner>h2{
+    font-size: 60px;
+}
+.rightbanner>img{
+    height: 300px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 20px blue;
+  margin-top: 50px;
+  transition: all 3s ease;
+}
+.rightbanner>img:hover{
+    transform: translateY(-20px);
+}
+.buttons>button:hover{
+     transform: translateY(-20px);
+}
+@media (min-width:576px) and (max-width:1024px){
+    header{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:578px){
+    header{
+         flex-direction: column; 
+    }
+}
+ .about{
+    text-align: center;
+    font-size: 48px;
+    padding: 20px;
+    margin: 20px;
+     font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+}
+#kk>p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.education{
+    display: flex;
+    border-radius: 20px;
+   
+    justify-content: space-around;
+   
+}
+
+.edu-time{
+    background-color: rgb(223, 207, 207);
+     padding: 15px;
+     box-shadow: 2px 3px 20px rgb(207, 178, 178);
+     border-radius: 20px;
+     text-align: center;
+     width:400px;
+}
+.edu-time:hover{
+    box-shadow: 2px 3px  20px aqua;
+    scale: 1.05;
+}
+#skill{
+    display: flex;
+    gap: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px rgb(207, 178, 178);
+    
+}
+.skill:hover{
+    box-shadow:2px 3px  20px aqua; 
+    scale: 1.05;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.project{
+    display: flex;
+       flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap: 20px;
+  
+      padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px rgb(207, 178, 178);
+}
+.project>a{
+    text-decoration: none;
+}
+.kl{
+    grid-column: 1/3;
+}
+.mm{
+    grid-column: 2/4;
+}
+.contact{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+     gap: 20px;
+  background-color: black;
+      padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
